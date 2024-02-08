@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 450017ceac8a19d40ba64392dcd2a8bd, type: 3}
   m_Name: PlayerData
   m_EditorClassIdentifier: 
+  m_PlayerName: Ashley
   maxHealth: 100
   initialHealth: 100
   initialLives: 2

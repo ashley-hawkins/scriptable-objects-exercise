@@ -18,7 +18,7 @@ public class Player : MonoBehaviour
     {
         if (playerData.Lives >= 0)
         {
-            infoLabel.text = $"Health: {playerData.Health}\nLives: {playerData.Lives}";
+            infoLabel.text = $"Name: {playerData.PlayerName}\nHealth: {playerData.Health}\nLives: {playerData.Lives}";
         }
         else
         {

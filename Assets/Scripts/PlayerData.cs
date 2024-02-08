@@ -6,6 +6,10 @@ using UnityEngine;
 public class PlayerData : ScriptableObject
 {
     [SerializeField]
+    private string m_PlayerName = "Change Me";
+    public string PlayerName { get { return m_PlayerName; } }
+
+    [SerializeField]
     private int maxHealth = 100;
 
     [SerializeField]
